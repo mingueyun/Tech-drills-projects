@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
+<form id="calculator" action="#" method="get">
+    <h1>Cake Cost Estimator</h1>
+    <h3>Round Cakes:</h3>
+    <fieldset id="round">
+        <table>
+            <tr>
+                <td><label>6" Round Cake (6-8): </label></td>
+                <td><input id="6round" type="text" placeholder=0> </td>
+           </tr>
+                    <tr>
+                <td><label>8" Round Cake (12-15): </label></td>
+                <td><input id="8round" type="text" placeholder=0></td>
+            </tr>
+            <tr>
+                <td><label>9" Round Cake (20-24): </label></td>
+                <td><input id="9round" type="text" placeholder=0 ></td>
+            </tr>
+            <tr>
+                <td><label>10" Round Cake (26-30): </label></td>
+                <td><input id="10round" type="text" placeholder=0 ></td>
+            </tr>
+            <tr>
+                <td><label>12" Round Cake (34-38): </label></td>
+                <td><input id="12round" type="text" placeholder=0 ></td>
+            </tr>
+            <tr>
+                <td><label>14" Round Cake (46-50): </label></td>
+                <td><input id="14round" type="text" placeholder=0 ></td>
+            </tr>
+        </table>
+
+    </fieldset>
+    <h3>Square Cakes:</h3>
+    <fieldset id="square">
+        <table>
+            <tr>
+                <td><label>6" Square Cake (8-10): </label></td>
+                <td><input id="6square" type="text" placeholder=0 ></td>
+            </tr>
+            <tr>
+                <td><label>8" Square Cake (14-18): </label></td>
+                <td><input id="8square" type="text" placeholder=0 ></td>
+            </tr>
+            <tr>
+                <td><label>9" Square Cake (22-26): </label></td>
+                <td><input id="9square" type="text" placeholder=0 ></td>
+            <tr>
+                <td><label>10" Square Cake (28-32): </label></td>
+                <td><input id="10square" type="text" placeholder=0 ></td>
+            </tr>
+            <tr>
+                <td><label>12" Square Cake (38-40): </label></td>
+                <td><input id="12square" type="text" placeholder=0 ></td>
+            </tr>
+            <tr>
+                <td><label>14" Square Cake (56-60): </label></td>
+                <td><input id="14square" type="text" placeholder=0></td>
+        </table>
+    </fieldset>
+
+    <h3>Sheet Cake:</h3>
+    <fieldset id="sheet">
+        <table>
+            <tr>
+                <td><label>1/4 Sheet (15-18): </label></td>
+                <td><input id="quarter" type="text" placeholder=0 ></td>
+            </tr>
+            <tr>
+                <td><label>1/2 Sheet (30-35): </label></td>
+                <td><input id="half" type="text" placeholder=0 ></td>
+            </tr>
+            <tr>
+                <td><label>Full Sheet (65-70): </label></td>
+                <td><input id="full" type="text" placeholder=0 ></td>
+            </tr>
+
+        </table>    
+    </fieldset>
+
+    <h3>Cupcakes:</h3>
+    <fieldset id="cupcakes">
+        <table>
+            <tr>
+                <td><label>Basic Cupcake: </label></td>
+                <td><input id="basic" type="text" placeholder=0 ></td>
+            </tr>
+            <tr>
+                <td><label>Standard Cupcake: </label></td>
+                <td><input id="standard" type="text" placeholder=0 ></td>
+            </tr>
+            <tr>
+                <td><label>Premium: </label></td>
+                <td><input id="premium" type="text" placeholder=0 ></td>
+            </tr>
+
+        </table>    
+    </fieldset>
+<script>
+function getRes(){
+  total = document.getElementById('total');
+  total.value=0;
+  f = document.getElementById('calculator');
+inputs = f.getElementsByTagName('input');
+res = 0;
+for (i = 0; i < inputs.length; i++){
+  if (!isNaN(inputs[i].value*1))
+  res += inputs[i].value*1;
+}
+total.value = res;
+}
+</script>
+  <h3><a href="javascript:getRes()">TOTAL:</a>  $ <input id="total" type="text" placeholder=0 disabled="disabled"></h3>
+</body>
+</html>
