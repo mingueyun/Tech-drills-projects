@@ -21,34 +21,33 @@ namespace CS_ASP_016_ChallengeDaysBetweenDates
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            if (Calendar1.SelectedDate > Calendar2.SelectedDate)
+            {
+                Label1.Text = Calendar1.SelectedDate.Subtract(Calendar2.SelectedDate).TotalDays.ToString();
+            }
 
-           
-/*          
-          I used this code first to get it working and it did, and I figured out the negative days
-
-            DateTime firstDate = Calendar1.SelectedDate;
-            DateTime secondDate = Calendar2.SelectedDate;
-
-            TimeSpan did = secondDate - firstDate;
-            int differenceIndays = did.Days;
-            
-            Label1.Text = differenceIndays.ToString();
-*/
-
-            DateTime firstDate = Calendar1.SelectedDate;
-            DateTime secondDate = Calendar2.SelectedDate;
-
-            TimeSpan differenceInDays;
-
-            int did;
-
-            if (firstDate > secondDate)
-                differenceInDays = (firstDate - secondDate);
             else
-                differenceInDays = (secondDate - firstDate);
+            {
+                Label1.Text = Calendar2.SelectedDate.Subtract(Calendar1.SelectedDate).TotalDays.ToString();
+            }
 
-            did = differenceInDays.Days;
-            Label1.Text = did.ToString();
+            /*
+
+                                    DateTime firstDate = Calendar1.SelectedDate;
+                                    DateTime secondDate = Calendar2.SelectedDate;
+
+                                    TimeSpan differenceInDays;
+
+                                    if (firstDate > secondDate)
+                                        differenceInDays = (firstDate - secondDate);
+                                    else
+                                        differenceInDays = (secondDate - firstDate);
+
+                                    int did = differenceInDays.Days;
+                                    Label1.Text = did.ToString();
+            */
+
+
 
         }
     }
