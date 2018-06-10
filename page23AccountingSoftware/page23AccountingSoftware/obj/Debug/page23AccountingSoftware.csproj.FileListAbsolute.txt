@@ -1,0 +1,6 @@
+C:\Users\mingu\OneDrive\Documents\Visual Studio 2017\Projects\page23AccountingSoftware\page23AccountingSoftware\bin\Debug\page23AccountingSoftware.exe.config
+C:\Users\mingu\OneDrive\Documents\Visual Studio 2017\Projects\page23AccountingSoftware\page23AccountingSoftware\bin\Debug\page23AccountingSoftware.exe
+C:\Users\mingu\OneDrive\Documents\Visual Studio 2017\Projects\page23AccountingSoftware\page23AccountingSoftware\bin\Debug\page23AccountingSoftware.pdb
+C:\Users\mingu\OneDrive\Documents\Visual Studio 2017\Projects\page23AccountingSoftware\page23AccountingSoftware\obj\Debug\page23AccountingSoftware.csproj.CoreCompileInputs.cache
+C:\Users\mingu\OneDrive\Documents\Visual Studio 2017\Projects\page23AccountingSoftware\page23AccountingSoftware\obj\Debug\page23AccountingSoftware.exe
+C:\Users\mingu\OneDrive\Documents\Visual Studio 2017\Projects\page23AccountingSoftware\page23AccountingSoftware\obj\Debug\page23AccountingSoftware.pdb
