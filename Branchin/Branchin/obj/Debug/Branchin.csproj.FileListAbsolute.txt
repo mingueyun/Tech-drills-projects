@@ -1,0 +1,7 @@
+C:\Users\mingu\OneDrive\Documents\Visual Studio 2017\Projects\Branchin\Branchin\bin\Debug\Branchin.exe.config
+C:\Users\mingu\OneDrive\Documents\Visual Studio 2017\Projects\Branchin\Branchin\bin\Debug\Branchin.exe
+C:\Users\mingu\OneDrive\Documents\Visual Studio 2017\Projects\Branchin\Branchin\bin\Debug\Branchin.pdb
+C:\Users\mingu\OneDrive\Documents\Visual Studio 2017\Projects\Branchin\Branchin\obj\Debug\Branchin.csprojResolveAssemblyReference.cache
+C:\Users\mingu\OneDrive\Documents\Visual Studio 2017\Projects\Branchin\Branchin\obj\Debug\Branchin.csproj.CoreCompileInputs.cache
+C:\Users\mingu\OneDrive\Documents\Visual Studio 2017\Projects\Branchin\Branchin\obj\Debug\Branchin.exe
+C:\Users\mingu\OneDrive\Documents\Visual Studio 2017\Projects\Branchin\Branchin\obj\Debug\Branchin.pdb
